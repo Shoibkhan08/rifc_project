@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Typography, Grid, Box } from "@mui/material";
 import Slidebar from './slider/Slidebar';
-import './Home.css'
+import './Home.css';
+import img from '../assets/slid3.jpg'
 
 export default function About() {
 
@@ -12,7 +13,7 @@ Rapid India Football Club isn’t just a team — it’s a movement. Built on pa
 
   return (
     <>
-      <Slidebar header={header} paragraph={paragraph} />
+      <Slidebar header={header} paragraph={paragraph} img={img} />
 
       <Container maxWidth="lg" sx={{ py: 10 }}>
         <div className='heading' style={{ padding: '20px 0 0 0', margin: '10px 0' }}>

@@ -5,6 +5,7 @@ import "./Home.css";
 import NewsCards from './card/NewsCards'
 import Slide2 from './slider/Slide2';
 import NextMatchAndLeaderboard from './teamMatch/NextMatchAndLeaderboard';
+import slide3 from '../assets/bg_3.jpg';
 // import img1 from '../assets/img_1.jpg'
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
   const paragraph = `Which is bona fide football Club, legally registered and recognized by Government of India.`
   return (
     <>
-      <Slidebar header={header} paragraph={paragraph} />
+      <Slidebar header={header} paragraph={paragraph} img={slide3} />
       <Container spacing={2} sx={{ py: 5 }} >
 
         <div className='heading' style={{ padding: '20px 0 0 0', margin: '10px 0' }}>

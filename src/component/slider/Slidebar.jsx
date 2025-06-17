@@ -4,12 +4,11 @@ import Card from '@mui/joy/Card';
 import CardCover from '@mui/joy/CardCover';
 import CardContent from '@mui/joy/CardContent';
 import Typography from '@mui/joy/Typography';
-import slide3 from '../../assets/bg_3.jpg';
 import Grid from '@mui/material/Grid';
 import '../../App.css'
 import Button from '@mui/material/Button';
 
-export default function MediaCover({header,paragraph}) {
+export default function MediaCover({header,paragraph,img}) {
   return (
     <>
       <Box
@@ -20,7 +19,7 @@ export default function MediaCover({header,paragraph}) {
         <Card component="li" sx={{ height:{xl:'90vh',md:'90vh',xs:'80vh'},  flexGrow: 1, borderRadius: "0", border: 'none' }}>
           <CardCover>
             <img
-              src={slide3}
+              src={img}
               //srcSet="https://images.unsplash.com/photo-1502657877623-f66bf489d236?auto=format&fit=crop&w=800&dpr=2 2x"
               loading="lazy"
               alt=""

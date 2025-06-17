@@ -13,14 +13,6 @@ import player4 from './assets/player4.jpg';
 import player5 from './assets/player5.jpg';
 import player6 from './assets/player6.jpg';
 import player7 from './assets/player7.jpg';
-// Lazy loaded components
-// const Home = lazy(() => import('./component/Home'));
-// const News = lazy(() => import('./component/News'));
-// const OurTeam = lazy(() => import('./component/OurTeam'));
-// const About = lazy(() => import('./component/About'));
-// const NewsArticle = lazy(() => import('./component/NewsCard/NewsArticle'));
-
-
 
 function App() {
 
