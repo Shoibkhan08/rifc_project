@@ -1,0 +1,6 @@
+node_modules/
+dist/
+mySecretModule/
+.env
+config/secret.js
+src/component/PrivateComponent.jsx

@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text color */
+}
+
+/* Container for Match Info */
+.match-info {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #121212; /* Slightly lighter background for contrast */
+    border-radius: 8px;
+    margin: 20px;
+}
+
+/* Left Section */
+.left-panel {
+    width: 48%;
+}
+
+.left-panel h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.left-panel .vs-button {
+    background-color: #e63946; /* Red button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Match Details */
+.match-details {
+    margin-top: 20px;
+}
+
+.match-details p {
+    margin: 5px 0;
+}
+
+/* Countdown Timer */
+.timer {
+    display: flex;
+    justify-content: space-around; /* Equal spacing */
+}
+
+.timer div {
+    text-align: center;
+}
+
+/* Right Section */
+.right-panel {
+    width: 48%;
+    background-color: #e63946; /* Red background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.right-panel h2 {
+    margin-top: 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #c3c3c3; /* Light gray for headers */
+    color: #1a1a1a; /* Dark text for contrast */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .match-info {
+        flex-direction: column; /* Stack vertically on smaller screens */
+    }
+    .left-panel, .right-panel {
+        width: 100%; /* Full width for smaller screens */
+    }
+}
+.white-text td,
+.white-text th {
+  color: white !important;
+}
